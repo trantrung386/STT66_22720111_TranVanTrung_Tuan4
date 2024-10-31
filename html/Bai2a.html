@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../css/Bai2a.css">
+    <title>Form Payment</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row row_blue">
+            <table class="table-borderless table_css">
+                <tr>
+                    <td colspan="2" class="checkout">Checkout</td>
+                </tr>
+                <tr class="border-white">
+                    <td>
+                        <h6 style="margin-top: 10px;">Product 1</h6>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </td>
+                    <td class="text-end">$200</td>
+                </tr>
+                <tr>
+                    <td style="border-bottom: 1px solid rgb(189, 188, 188);">Product 2
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </td>
+                    <td class="text-end" style="border-bottom: 1px solid rgb(189, 188, 188);">$120</td>
+                </tr>
+                <tr class="border-white">
+                    <td>
+                        <h6 style="margin-top: 10px;">Total</h6>
+                    </td>
+                    <td class="text-end">$320</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="row row_white">
+            <table class="table-borderless">
+                <tr>
+                    <td colspan="2" class="credit">Credit Card Details</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="card_holder">CARD HOLDER</p>
+                    </td>
+                    <td>
+                        <p class="expiration">EXPIRATION DATE</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" placeholder="Card Holder" id="card_holder" class="form-control">
+                    </td>
+                    <td class="date">
+                        <input type="text" class="form-control" placeholder="MM" style="border-radius: 5px 0 0 5px;">&nbsp;<span> / </span>&nbsp;
+                        <input type="text" class="form-control" placeholder="YY" style="border-radius: 0 5px 5px 0;">
+                    </td>
+                </tr>
+
+                <table class="table-borderless">
+                    <tr>
+                        <td class="card_number">CARD NUMBER</td>
+                        <td class="cv">CVC</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" placeholder="Card Number" class="form-control" id="card_number">
+                        </td>
+                        <td>
+                            <input type="text" placeholder="CVC" class="form-control">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="button" value="Proceed" id="proceed">
+                        </td>
+                    </tr>
+                </table>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

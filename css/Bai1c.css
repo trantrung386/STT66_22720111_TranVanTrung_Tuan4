@@ -1,0 +1,116 @@
+.container {
+    width: 900px;
+    height: 350px;
+    margin: 10px auto;
+    padding: 10px;
+    box-shadow: 0 5px 10px rgb(165, 163, 163), -3px -5px 5px rgb(213, 212, 212);
+}
+
+.row {
+    border-right: 1px solid rgb(192, 191, 191);
+    padding: 15px;
+    margin: 2px;
+    height: 97%;
+}
+
+.table {
+    width: 98%;
+    font-size: 14px;
+    margin-top: 25px;
+}
+
+.table th {
+    color: rgb(86, 84, 84);
+}
+
+.img1 {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.td3,
+.senior {
+    width: 15%;
+}
+
+.edit {
+    width: 10%;
+}
+
+.td1 p {
+    margin-bottom: 5px;
+    color: rgb(121, 119, 119);
+}
+
+.edit .p1,
+.td2 .p1,
+#td4 p {
+    color: rgb(94, 92, 92);
+    font-weight: 600;
+}
+
+.td2 p {
+    margin-bottom: 5px;
+    color: rgb(121, 119, 119);
+}
+
+.btn1,
+.btn2,
+.btn3 {
+    background-color: rgb(190, 250, 235);
+    border: 0;
+    color: green;
+    font-weight: 600;
+    border-radius: 15px;
+    height: 25px;
+    font-size: 12px;
+}
+
+.btn1:hover {
+    background-color: rgb(19, 133, 110);
+    color: greenyellow;
+}
+
+.edit {
+    color: blue;
+    font-weight: 600;
+    padding-left: 12px;
+}
+
+.btn2 {
+    background-color: rgb(176, 220, 250);
+    color: rgb(3, 3, 198);
+}
+
+.btn2:hover {
+    background-color: rgb(36, 131, 195);
+    color: rgb(112, 204, 250);
+}
+
+.btn3 {
+    background-color: rgb(251, 216, 152);
+}
+
+.td1 .img1,
+.td1 h2 {
+    margin-top: 10px;
+}
+
+.td2 .p1 {
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+
+.td3 button,
+.senior,
+.edit {
+    margin-top: 20px;
+}

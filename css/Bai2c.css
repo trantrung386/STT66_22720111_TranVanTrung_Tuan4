@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 700px;
+    height: auto;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    border: 1px solid rgb(0, 140, 255);
+    box-shadow: 0 2px 5px gray inset;
+}
+
+.table_css td {
+    width: 50%;
+}
+
+.table_css td>input {
+    width: 95%;
+    margin-bottom: 18px;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+h6 {
+    margin-left: 16px;
+}
+
+#conditions {
+    width: 5%;
+    margin-left: 16px;
+}
+
+.gender {
+    width: 5% !important;
+}
+
+.td_button {
+    width: 100% !important;
+    padding-left: 16px;
+}
+
+.button_css {
+    background-color: #54b3c2;
+    border: none;
+}
+
+.button_css:hover {
+    background-color: #4294a0;
+}

@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 640px;
+    height: auto;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 5px solid rgb(198, 196, 196);
+}
+
+.table1 td>input,
+.table2 td>input {
+    width: 95%;
+}
+
+.col-6_css,
+.col-3_css,
+.col_css {
+    padding-right: 0;
+}
+
+.form-control_css,
+.form_css .form-control_css:invalid {
+    background-image: none !important;
+}
+
+.form-control_css {
+    padding-right: 5px !important;
+}
+
+.label_check {
+    margin-left: 5px;
+    margin-top: 16px;
+}
+
+.valid-feedback_checkbox,
+.invalid-feedback_checkbox {
+    margin-left: 16px;
+}
+
+.check_click:not(:has(:checked)) label {
+    color: red;
+}
+
+.submit_css {
+    width: 20%;
+    border-radius: 4px;
+    margin-top: 12px;
+    margin-left: 12px;
+}

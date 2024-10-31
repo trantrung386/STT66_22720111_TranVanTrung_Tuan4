@@ -1,0 +1,50 @@
+.container {
+    height: 480px;
+    width: 950px;
+    margin: 10px auto;
+}
+
+.col-xl-5 {
+    height: 480px;
+    background-image: url(../images/hinh1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.col-6_1 {
+    width: 50%;
+    height: 280px;
+    background-image: url(../images/hinh2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.col-6_2 {
+    width: 50%;
+    height: 280px;
+    background-image: url(../images/hinh3.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.col-4 {
+    height: 200px;
+}
+
+.col-4_1 {
+    background-image: url(../images/hinh4.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.col-4_2 {
+    background-image: url(../images/hinh5.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.col-4_3 {
+    background-image: url(../images/hinh6.png);
+    background-size: cover;
+    background-position: center;
+}

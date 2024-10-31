@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biểu thức chính quy</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <style>
+        [class*=col-] {
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        #anh1,
+        #anh2 {
+            width: 100%;
+            height: 150px;
+        }
+        
+        ul li {
+            width: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-3 col-md-2">
+                <image src="../img/logo.PNG" alt="" srcset="" id="anh1">
+            </div>
+            <div class="col-12 col-md-10">
+                <image src="../img/header.PNG" alt="" srcset="" id="anh2">
+            </div>
+        </div>
+
+        <div class="row">
+            <nav class="navbar nav-pills navbar-expand bg-info bg-dark">
+                <ul class="navbar-nav">
+                    <li class="navbar-item"><a href="#" class="nav-link text-white">HOME</a></li>
+                    <li class="navbar-item"><a href="#" class="nav-link text-white">CONTACT</a></li>
+                    <li class="navbar-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle text-white" role="button" data-toggle="dropdown" aria-expanded="false">SERVICES</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item" id="btnOpenDK">MOBI</a>
+                            <div class="dropdown-divider"></div>
+                            <a href="#" class="dropdown-item">INTERNET</a>
+                            <div class="dropdown-divider"></div>
+                            <a href="#" class="dropdown-item">TIVI</a>
+                        </div>
+                    </li>
+                    <li class="navbar-item"><a href="#" class="nav-link text-white">ABOUT</a></li>
+                    <li class="navbar-item"><a href="#" class="nav-link text-white">HELP</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="row">
+            <table class="table table-bordered table-hover">
+                <thead>
+                    <th>
+                        <tr>
+                            <td>Mã sinh viên</td>
+                            <td>Họ tên</td>
+                            <td>Ngày sinh</td>
+                            <td>Quê quán</td>
+                            <td>Ghi chú</td>
+                        </tr>
+                    </th>
+                </thead>
+
+                <body>
+                    <tr>
+                        <td>1234567890</td>
+                        <td>Lê Văn A</td>
+                        <td>01/01/2011</td>
+                        <td>Cần Thơ</td>
+                        <td>Lớp mới</td>
+                    </tr>
+                    <tr>
+                        <td>0987654321</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>1234567280</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </body>
+                <tfoot>
+
+                </tfoot>
+            </table>
+        </div>
+
+        <div class="row">
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Danh sách đăng ký</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="forMa">Mã sinh viên</label>
+                                    <input type="text" class="form-control" id="txtMa" aria-describedby="txtMa">
+                                </div>
+                                <div class="form-group">
+                                    <label for="forHT">Họ tên</label>
+                                    <input type="text" class="form-control" id="txtHT">
+                                </div>
+                                <div class="form-group form-check">
+                                    <label for="exampleCheck1" class="form-check-label">Check me out</label>
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
